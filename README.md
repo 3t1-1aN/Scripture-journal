@@ -8,3 +8,6 @@ you are able to:
 - pick between different studies (book, character, psalms/proverbs, gospel, and general) with guiding questions to get you started tailored for each type of study
 - save your journals in an archive to reference or edit later
 - a dark mode
+
+### in process:
+will get a demo website up soon!
