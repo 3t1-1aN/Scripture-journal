@@ -1,0 +1,50 @@
+{
+    "name": "StudyEntry",
+    "type": "object",
+    "properties": {
+        "title": {
+            "type": "string",
+            "description": "Title of the study entry"
+        },
+        "study_mode": {
+            "type": "string",
+            "enum": [
+                "book_study",
+                "psalms_proverbs",
+                "character_study",
+                "gospels",
+                "general"
+            ],
+            "description": "Type of Bible study mode"
+        },
+        "scripture_reference": {
+            "type": "string",
+            "description": "Bible verse or passage reference"
+        },
+        "content": {
+            "type": "string",
+            "description": "Journal entry content"
+        },
+        "key_insights": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "description": "Key insights or takeaways"
+        },
+        "prayer_requests": {
+            "type": "string",
+            "description": "Prayer requests related to this study"
+        },
+        "study_date": {
+            "type": "string",
+            "format": "date",
+            "description": "Date of the study"
+        }
+    },
+    "required": [
+        "title",
+        "study_mode",
+        "study_date"
+    ]
+}
